@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  a:link{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+  pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+  s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+  figure, header, nav, section, article, aside, footer, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    right: 0;
+    left: 0;
+  }
+
+  body{
+    /* overflow-x:hidden; */
+    /* overflow: hidden; */
+  }
+
+  .row{
+    margin-bottom: 30px;
+  }
+
+
+    header{
+        background: #FEFEFE;
+    }
+
+    header nav a img{
+        width: 130px;
+        height: 65px;
+    }
+
+    header nav ul li{
+        margin-left: 30px;
+    }
+
+    header nav ul li a{
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline{
+        padding-top: 134px;
+        padding-bottom: 100px;
+        background: #E7EBFC;
+    }
+
+    section#headline h1{
+        /* Headings/H1 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 72px;
+        max-width: 900px;
+        /* or 112% */
+
+        letter-spacing: -1.16px;
+        text-transform: capitalize;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+    }
+
+    section#headline p{
+        margin-top: 31px;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 900px;
+        /* or 142% */
+
+        letter-spacing: -0.43px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline .girl{
+        margin-top: 36px;
+    }
+
+    section#headline .girl .container-fluid img{
+        width: 90px;
+        height: 90px;
+    }
+
+    section#headline .girl .container-fluid .nama h5{
+        margin-top: 1rem;
+        /* Paragraph/18B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        letter-spacing: -0.32px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline .girl .container-fluid .nama p{
+        margin-top: 9px;
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline .girl .container-fluid .nama p{
+        margin-top: 9px;
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline button{        
+        background: #19345E;
+        border-radius: 1px;
+        width: 262px;
+        height: 56px;
+        color: #FFFFFF;
+        margin-top: 36px;
+    }
+
+    section#headline button img{
+        margin-left: 10px;
+    }
+
+    section#solution {
+        padding-top: 122px;
+        background: #E7EBFC;
+    }
+
+    section#solution h2{
+        margin: auto;
+        left: 40%;
+        max-width: 730px;
+        /* Headings/H2 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        /* or 119% */
+
+        text-align: center;
+        letter-spacing: -0.94px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 52px;
+    }
+
+    section#solution .card-custom{
+
+        /* Base/BG Primary */
+
+        background: #FFFFFF;
+        border-radius: 3px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    section#solution .card-custom .content-card{
+        margin: 0px 40px 32px 32px;
+    }
+
+    section#solution .card-custom .content-card h5{
+        /* Paragraph/24B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        /* identical to box height, or 142% */
+
+        letter-spacing: -0.43px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 12px;
+    }
+
+    section#solution .card-custom .content-card p{
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 40px;
+    }
+
+    section#solution .card-custom .content-card button{
+        /* Paragraph/14B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+
+        letter-spacing: -0.25px;
+
+        /* Global/Primary */
+
+        color: #19345E;
+    }
+
+    section#solution .btn{   
+        margin-top: -38px;   
+        background: #19345E;
+        border-radius: 1px;
+        width: 166px;
+        height: 56px;
+        color: #FFFFFF;
+        margin-top: 36px;
+    }
+
+    section#solution .btn img{
+        margin-left: 10px;
+    }
+
